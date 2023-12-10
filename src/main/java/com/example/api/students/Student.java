@@ -16,13 +16,17 @@ public class Student {
     private Long id;
 
     private String name;
+
+    @Column(unique = true)
+    private String email;
     private LocalDate dob;
 
     public Student() {
     }
 
-    public Student(String name, LocalDate dob) {
+    public Student(String name, String email, LocalDate dob) {
         this.name = name;
+        this.email = email;
         this.dob = dob;
     }
 
@@ -32,6 +36,10 @@ public class Student {
 
     public String getName() {
         return name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public LocalDate getDob() {
@@ -50,13 +58,17 @@ public class Student {
         return Period.between(dob, LocalDate.now()).getYears();
     }
 
+    public String getEmail() {
+        return email;
+    }
 
     @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", dbd=" + dob +
+                ", email='" + email + '\'' +
+                ", dob=" + dob +
                 '}';
     }
 }

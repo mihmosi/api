@@ -1,5 +1,6 @@
 package com.example.api.students;
 
+import com.example.api.responce.RestApiException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,6 +20,9 @@ public class StudentService {
     }
 
     public void add(Student student) {
+        if (studentRepository.findStudentByEmail(student.getEmail()).isPresent()){
+            throw new RestApiException("Email is busy");
+        }
         studentRepository.save(student);
     }
 
