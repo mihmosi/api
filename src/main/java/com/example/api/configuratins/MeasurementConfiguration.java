@@ -1,5 +1,7 @@
-package com.example.api.measurements;
+package com.example.api.configuratins;
 
+import com.example.api.measurements.Measurement;
+import com.example.api.measurements.MeasurementRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

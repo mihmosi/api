@@ -1,0 +1,616 @@
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T234047.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T234043.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T210830.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Tom
+
+<> 2023-12-17T210820.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Tom
+
+<> 2023-12-17T210810.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T210801.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T210743.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T210736.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T210725.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T204526.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "-2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T204245.500.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "-2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T204225.500.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "-2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T204203.500.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T204153.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T203547.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T203434.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T203340.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Tom
+
+<> 2023-12-17T203333.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Tom
+
+<> 2023-12-17T203238.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T203233.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T203223.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T203155.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "-2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T203044.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T203033.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T201020.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Tom
+
+<> 2023-12-17T201016.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/list
+
+<> 2023-12-17T201011.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T200821.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/list
+
+<> 2023-12-17T200812.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T200804.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T200801.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T200759.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T200716.500.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T200708.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T194353.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T194341.200.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T193820.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex1331",
+  "timestamp": "2023-12-17 12:00:00",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T193740.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex1331",
+  "timestamp": " 2023-12-17T193237",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T193540.500.json
+
+###
+
+GET http://localhost:8080/v1/measurements/listAll/Mary
+
+<> 2023-12-17T193511.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex133",
+  "timestamp": " 2023-12-17T193237",
+  "gasUsage": "2.5",
+  "coldWaterUsage": "3.1",
+  "hotWaterUsage": "1.5"
+}
+
+<> 2023-12-17T193457.500.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex133",
+  "timestamp": "2023-012-17-13-00-00",
+  "gasUsage": "2023-012-17-13-00-00",
+  "coldWaterUsag": "2023-012-17-13-00-00",
+  "hotWaterUsage": "2023-012-17-13-00-00"
+}
+
+<> 2023-12-17T193237.500.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex133",
+  "timestamp": "2023-012-17-13-00-00",
+  "gasUsage": "2023-012-17-13-00-00",
+  "coldWaterUsag": "2023-012-17-13-00-00",
+  "hotWaterUsage": "2023-012-17-13-00-00"
+}
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311111",
+  "paymentDay": "2005-07-26"
+}
+
+<> 2023-12-17T171448.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex133111111",
+  "paymentDay": "2005-07-26"
+}
+
+<> 2023-12-17T171436.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex133111111",
+  "paymentDay": "2005-07-26"
+}
+
+<> 2023-12-17T170247.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311111",
+  "paymentDay": "2005-07-26"
+}
+
+<> 2023-12-17T170243.500.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex13311111",
+  "paymentDay": "2005-07-26"
+}
+
+<> 2023-12-17T170241.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex1331111",
+  "paymentDay": "2005-07-26"
+}
+
+<> 2023-12-17T170238.200.json
+
+###
+
+POST http://localhost:8080/v1/measurements/item
+Content-Type: application/json
+
+{
+  "username": "Mary",
+  "email": "alex133111",
+  "paymentDay": "2005-07-26"
+}
+
+<> 2023-12-17T170233.200.json
+
+###

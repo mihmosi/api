@@ -1,5 +1,7 @@
-package com.example.api.measurements;
+package com.example.api.service;
 
+import com.example.api.measurements.Measurement;
+import com.example.api.measurements.MeasurementRepository;
 import com.example.api.responce.RestApiException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
