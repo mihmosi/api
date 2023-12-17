@@ -1,5 +1,7 @@
-package com.example.api.measurements;
+package com.example.api.controllers;
 
+import com.example.api.measurements.Measurement;
+import com.example.api.service.MeasurementService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
