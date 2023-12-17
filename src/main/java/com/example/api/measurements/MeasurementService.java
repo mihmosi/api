@@ -25,9 +25,10 @@ public class MeasurementService {
         return measurementRepository.findByUsername(userName);
     }
 
+    // TODO add more validation
     public void add(Measurement measurement) {
-        if (measurementRepository.findStudentByEmail(measurement.getEmail()).isPresent()) {
-            throw new RestApiException("Email is busy");
+        if (measurement.getGasUsage() < 0 || measurement.getHotWaterUsage() < 0 || measurement.getColdWaterUsage() < 0) {
+            throw new RestApiException("Data not valid");
         }
         measurementRepository.save(measurement);
     }
@@ -43,11 +44,13 @@ public class MeasurementService {
             if (!measurement.getUsername().isEmpty()) {
                 item.setUsername(measurement.getUsername());
             }
-            if (measurement.getPaymentDay() != null) {
-                item.setPaymentDay(measurement.getPaymentDay());
-            }
+            if (measurement.getGasUsage() != null) {
+                item.setGasUsage(measurement.getGasUsage());
+            } // todo add more edit
             measurementRepository.save(item);
         }
 
     }
 }
+
+

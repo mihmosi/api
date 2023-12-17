@@ -1,11 +1,11 @@
 package com.example.api.measurements;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import org.springframework.stereotype.Component;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-
+//todo add parent abstract class with super.liquid
 @Component
 @Entity
 public class Measurement {
@@ -17,30 +17,68 @@ public class Measurement {
 
     private String username;
 
-    @Column(unique = true)
+    @Column(name= "email")
     private String email;
-    private LocalDate paymentDay;
 
-//    @Column(name = "timestamp")
-//    private LocalDateTime timestamp;
-//
-//    @Column(name = "gas_usage")
-//    private Double gasUsage;
-//
-//    @Column(name = "cold_water_usage")
-//    private Double coldWaterUsage;
-//
-//    @Column(name = "hot_water_usage")
-//    private Double hotWaterUsage;
-//
+    @Column(name = "timestamp")
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime timestamp;
+
+    @Column(name = "gas_usage")
+    private Double gasUsage;
+
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(LocalDateTime timestamp) {
+        this.timestamp = timestamp;
+    }
+
+    public Double getGasUsage() {
+        return gasUsage;
+    }
+
+    public void setGasUsage(Double gasUsage) {
+        this.gasUsage = gasUsage;
+    }
+
+    public Double getColdWaterUsage() {
+        return coldWaterUsage;
+    }
+
+    public void setColdWaterUsage(Double coldWaterUsage) {
+        this.coldWaterUsage = coldWaterUsage;
+    }
+
+    public Double getHotWaterUsage() {
+        return hotWaterUsage;
+    }
+
+    public void setHotWaterUsage(Double hotWaterUsage) {
+        this.hotWaterUsage = hotWaterUsage;
+    }
+
+    @Column(name = "cold_water_usage")
+    private Double coldWaterUsage;
+
+
+    @Column(name = "hot_water_usage")
+    private Double hotWaterUsage;
+
 
     public Measurement() {
     }
 
-    public Measurement(String username, String email, LocalDate paymentDay) {
+    public Measurement(String username, String email,
+                       LocalDateTime timestamp, Double gasUsage,
+                       Double coldWaterUsage, Double hotWaterUsage) {
         this.username = username;
         this.email = email;
-        this.paymentDay = paymentDay;
+        this.timestamp = timestamp;
+        this.gasUsage = gasUsage;
+        this.coldWaterUsage = coldWaterUsage;
+        this.hotWaterUsage = hotWaterUsage;
     }
 
     public Long getId() {
@@ -51,10 +89,6 @@ public class Measurement {
         return username;
     }
 
-    public LocalDate getPaymentDay() {
-        return paymentDay;
-    }
-
     public void setUsername(String username) {
         this.username = username;
     }
@@ -63,21 +97,7 @@ public class Measurement {
         this.email = email;
     }
 
-    public void setPaymentDay(LocalDate dob) {
-        this.paymentDay = dob;
-    }
-
     public String getEmail() {
         return email;
-    }
-
-    @Override
-    public String toString() {
-        return "Measurement{" +
-                "id=" + id +
-                ", name='" + username + '\'' +
-                ", email='" + email + '\'' +
-                ", paymentDay=" + paymentDay +
-                '}';
     }
 }
